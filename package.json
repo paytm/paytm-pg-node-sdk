@@ -10,6 +10,11 @@
     "SDK",
     "Node"
   ],
+  "homepage": "https://developer.paytm.com/docs/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paytm/paytm-pg-node-sdk"
+  },
   "scripts": {
     "build": "tsc",
     "rebuild": "npm run clean && tsc -p .",
