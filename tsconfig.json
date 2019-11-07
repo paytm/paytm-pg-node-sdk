@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+        "declaration": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "moduleResolution": "node", // Tell tsc to look in node_modules for modules
+    }
+}

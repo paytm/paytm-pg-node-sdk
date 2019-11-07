@@ -1,0 +1,30 @@
+{
+  "name": "paytm-pg-node-sdk",
+  "description": "Paytm SDK for Node.js",
+  "version": "1.0.0",
+  "author": "Rahul Verma",
+  "main": "dist/index.js",
+  "keywords": [
+    "Paytm",
+    "Client",
+    "SDK",
+    "Node"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "rebuild": "npm run clean && tsc -p .",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "8.9.0",
+    "@types/request": "2.48.1",
+    "@types/uuid": "3.4.4"
+  },
+  "dependencies": {
+    "request": "2.88.0",
+    "tslib": "1.9.3",
+    "typescript": "3.4.5",
+    "uuid": "3.3.2",
+    "winston": "3.2.1"
+  }
+}
