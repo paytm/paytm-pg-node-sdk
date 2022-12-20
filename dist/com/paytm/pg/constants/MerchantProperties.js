@@ -17,11 +17,10 @@ class MerchantProperties {
      * @param string environment
      * @param string mid
      * @param string merchantKey
-     * @param string clientId
      * @param string website
      * @throws Exception
      */
-    static initialize(environment, mid, merchantKey, clientId, website) {
+    static initialize(environment, mid, merchantKey, website) {
         if (!MerchantProperties.isInitialized) {
             _LoggingUtil.LoggingUtil.addLog(_LoggingUtil.LoggingUtil.LogLevel.INFO, "MerchantProperties", "initialize called");
             if (_CommonUtil.CommonUtil.isEmptyOrNull(environment))
@@ -30,8 +29,6 @@ class MerchantProperties {
                 throw new _SDKException.SDKException("Mid can not be null or empty");
             else if (_CommonUtil.CommonUtil.isEmptyOrNull(merchantKey))
                 throw new _SDKException.SDKException("Merchant key can not be null or empty");
-            else if (_CommonUtil.CommonUtil.isEmptyOrNull(clientId))
-                throw new _SDKException.SDKException("Client Id can not be null or empty");            
             else if (_CommonUtil.CommonUtil.isEmptyOrNull(website))
                 throw new _SDKException.SDKException("Website can not be null or empty");
             else {
@@ -39,7 +36,6 @@ class MerchantProperties {
                 MerchantProperties.setEnvironment(environment);
                 MerchantProperties.setMid(mid);
                 MerchantProperties.setMerchantKey(merchantKey);
-                MerchantProperties.setClientId(clientId);
                 MerchantProperties.setWebsite(website);
             }
         }

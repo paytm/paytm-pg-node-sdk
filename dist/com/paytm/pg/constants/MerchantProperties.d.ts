@@ -62,11 +62,10 @@ export declare class MerchantProperties {
      * @param string environment
      * @param string mid
      * @param string merchantKey
-     * @param string clientId
      * @param string website
      * @throws Exception
      */
-    static initialize(environment: string, mid: string, merchantKey: string, clientId: string , website: string): void;
+    static initialize(environment: string, mid: string, merchantKey: string, website: string): void;
     /**
      * @return string
      */
