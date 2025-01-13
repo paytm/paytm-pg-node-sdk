@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.RefundInitiateRequestBody = void 0;
 const _RefundBaseRequest = require("../request/RefundBaseRequest");
 /* class: RefundInitiateRequestBody */
 class RefundInitiateRequestBody extends _RefundBaseRequest.RefundBaseRequest {

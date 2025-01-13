@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.RefundDetailBuilder = exports.RefundDetail = void 0;
 const _RefundInitiateRequestBody = require("../../pg/request/RefundInitiateRequestBody");
 const _MerchantProperties = require("../../pg/constants/MerchantProperties");
 /**

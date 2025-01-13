@@ -21,7 +21,7 @@ export declare class BaseResponseBody extends _ExtraParameterMap.ExtraParameterM
      */
     setResultInfo(resultInfo: any): void;
     toJSON(): {
-        'resultInfo': any;
-        'extraParamsMap': {};
+        resultInfo: any;
+        extraParamsMap: {};
     };
 }

@@ -36,7 +36,7 @@ export declare class NativePaymentStatusResponse implements _SecureResponse.Secu
      */
     setBody(body: any): void;
     toJSON(): {
-        'head': any;
-        'body': any;
+        head: any;
+        body: any;
     };
 }

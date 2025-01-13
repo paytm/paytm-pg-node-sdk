@@ -33,7 +33,7 @@ export declare class ResponseHeader {
      */
     setVersion(version: string): void;
     toJSON(): {
-        'responseTimestamp': string;
-        'version': string;
+        responseTimestamp: string;
+        version: string;
     };
 }

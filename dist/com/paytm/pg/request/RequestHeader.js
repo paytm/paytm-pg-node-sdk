@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.RequestHeader = void 0;
 const _BaseHeader = require("../request/BaseHeader");
 /* class: RequestHeader */
 class RequestHeader extends _BaseHeader.BaseHeader {

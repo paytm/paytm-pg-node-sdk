@@ -229,24 +229,24 @@ export declare class NativeRefundStatusResponseBody extends _BaseResponseBody.Ba
      */
     setSsoId(ssoId: string): void;
     toJSON(): {
-        'txnId': string;
-        'orderId': string;
-        'txnAmount': string;
-        'mid': string;
-        'refundAmount': string;
-        'txnDate': string;
-        'totalRefundedAmount': string;
-        'refundDate': string;
-        'refId': string;
-        'bankTxnId': string;
-        'txnType': string;
-        'gatewayName': string;
-        'bankName': string;
-        'paymentMode': string;
-        'refundId': string;
-        'refundType': string;
-        'ssoId': string;
-        'resultInfo': any;
-        'extraParamsMap': {};
+        txnId: string;
+        orderId: string;
+        txnAmount: string;
+        mid: string;
+        refundAmount: string;
+        txnDate: string;
+        totalRefundedAmount: string;
+        refundDate: string;
+        refId: string;
+        bankTxnId: string;
+        txnType: string;
+        gatewayName: string;
+        bankName: string;
+        paymentMode: string;
+        refundId: string;
+        refundType: string;
+        ssoId: string;
+        resultInfo: any;
+        extraParamsMap: {};
     };
 }

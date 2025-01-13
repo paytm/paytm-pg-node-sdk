@@ -36,7 +36,7 @@ export declare class NativeRefundStatusResponse implements _SecureResponse.Secur
      */
     setBody(body: any): void;
     toJSON(): {
-        'head': any;
-        'body': any;
+        head: any;
+        body: any;
     };
 }

@@ -47,9 +47,9 @@ export declare class RefundBaseRequest extends _ExtraParameterMap.ExtraParameter
      */
     setRefId(refId: string): void;
     toJSON(): {
-        'mid': string;
-        'orderId': string;
-        'refId': string;
-        'extraParamsMap': {};
+        mid: string;
+        orderId: string;
+        refId: string;
+        extraParamsMap: {};
     };
 }

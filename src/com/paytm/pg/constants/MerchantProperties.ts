@@ -67,22 +67,22 @@ export class MerchantProperties {
     /**
      * @var string
      */
-    private static initiateTxnUrl: string = "https://securegw-stage.paytm.in/theia/api/v1/initiateTransaction";
+    private static initiateTxnUrl: string = "https://securestage.paytmpayments.com/theia/api/v1/initiateTransaction";
 
     /**
      * @var string
      */
-    private static refundUrl: string = "https://securegw-stage.paytm.in/refund/api/v1/async/refund";
+    private static refundUrl: string = "https://securestage.paytmpayments.com/refund/api/v1/async/refund";
 
     /**
      * @var string
      */
-    private static paymentStatusUrl: string = "https://securegw-stage.paytm.in/merchant-status/api/v1/getPaymentStatus";
+    private static paymentStatusUrl: string = "https://securestage.paytmpayments.com/merchant-status/api/v1/getPaymentStatus";
 
     /**
      * @var string
      */
-    private static refundStatusUrl: string = "https://securegw-stage.paytm.in/refund/api/v1/refundStatus";
+    private static refundStatusUrl: string = "https://securestage.paytmpayments.com/refund/api/v1/refundStatus";
 
     /**
      * @param string environment
@@ -246,9 +246,9 @@ export class MerchantProperties {
         MerchantProperties.environment = environment;
         _LoggingUtil.LoggingUtil.addLog(_LoggingUtil.LoggingUtil.LogLevel.INFO, "MerchantProperties", "Setting Environment for " + environment);
         if (environment === _LibraryConstants.LibraryConstants.PRODUCTION_ENVIRONMENT) {
-            MerchantProperties.initiateTxnUrl = "https://securegw.paytm.in/theia/api/v1/initiateTransaction";
-            MerchantProperties.refundUrl = "https://securegw.paytm.in/refund/api/v1/async/refund";
-            MerchantProperties.paymentStatusUrl = "https://securegw.paytm.in/merchant-status/api/v1/getPaymentStatus";
+            MerchantProperties.initiateTxnUrl = "https://secure.paytmpayments.com/theia/api/v1/initiateTransaction";
+            MerchantProperties.refundUrl = "https://secure.paytmpayments.com/refund/api/v1/async/refund";
+            MerchantProperties.paymentStatusUrl = "https://secure.paytmpayments.com/merchant-status/api/v1/getPaymentStatus";
             MerchantProperties.refundStatusUrl = "https://pgp-ite.paytm.in/refund/api/v1/refundStatus";
         }
     }

@@ -59,8 +59,8 @@ export declare class NativePaymentStatusRequestBody {
      */
     setFromAoaMerchant(fromAoaMerchant: boolean): void;
     toJSON(): {
-        'mid': string;
-        'orderId': string;
-        'txnType': string;
+        mid: string;
+        orderId: string;
+        txnType: string;
     };
 }

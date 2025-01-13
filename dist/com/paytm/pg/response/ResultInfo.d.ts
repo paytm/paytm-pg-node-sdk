@@ -59,9 +59,9 @@ export declare class ResultInfo {
      */
     setRedirect(is_redirect: boolean): void;
     toJSON(): {
-        'resultStatus': string;
-        'resultMsg': string;
-        'resultCode': string;
-        'isRedirect': boolean;
+        resultStatus: string;
+        resultMsg: string;
+        resultCode: string;
+        isRedirect: boolean;
     };
 }

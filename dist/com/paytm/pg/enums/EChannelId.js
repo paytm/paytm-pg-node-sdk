@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.EChannelId = void 0;
 /* class: EChannelId  */
 class EChannelId {
     /**
@@ -49,8 +50,8 @@ class EChannelId {
         throw new Error("Given value of Currency is not supported");
     }
 }
+exports.EChannelId = EChannelId;
 EChannelId.APP = "APP";
 EChannelId.WEB = "WEB";
 EChannelId.WAP = "WAP";
 EChannelId.SYSTEM = "SYSTEM";
-exports.EChannelId = EChannelId;

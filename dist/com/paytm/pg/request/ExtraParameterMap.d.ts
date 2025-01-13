@@ -20,6 +20,6 @@ export declare class ExtraParameterMap {
      */
     setExtraParamsMap(extraParamsMap: any): void;
     toJSON(): {
-        'extraParamsMap': {};
+        extraParamsMap: {};
     };
 }

@@ -36,7 +36,7 @@ export declare class AsyncRefundResponse implements _SecureResponse.SecureRespon
      */
     setBody(body: any): void;
     toJSON(): {
-        'head': any;
-        'body': any;
+        head: any;
+        body: any;
     };
 }

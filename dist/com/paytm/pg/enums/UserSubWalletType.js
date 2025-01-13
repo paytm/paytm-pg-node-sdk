@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.UserSubWalletType = void 0;
 /* class: UserSubWalletType  */
 class UserSubWalletType {
     /**
@@ -40,6 +41,7 @@ class UserSubWalletType {
         this.type = type;
     }
 }
+exports.UserSubWalletType = UserSubWalletType;
 UserSubWalletType.FOOD = "FOOD";
 UserSubWalletType.GIFT = "GIFT";
 UserSubWalletType.MULTI_PURPOSE_GIFT = "MULTI_PURPOSE_GIFT";
@@ -51,4 +53,3 @@ UserSubWalletType.INTERNATIONAL_FUNDS_TRANSFER = "INTERNATIONAL_FUNDS_TRANSFER";
 UserSubWalletType.CASHBACK = "CASHBACK";
 UserSubWalletType.GIFT_VOUCHER = "GIFT_VOUCHER";
 UserSubWalletType.COMMUNICATION = "COMMUNICATION";
-exports.UserSubWalletType = UserSubWalletType;

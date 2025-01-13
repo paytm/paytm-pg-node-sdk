@@ -99,16 +99,16 @@ export declare class RefundInitiateRequestBody extends _RefundBaseRequest.Refund
      */
     setSubwalletAmount(subwalletAmount: Array<object>): void;
     toJSON(): {
-        'txnId': string;
-        'refundAmount': string;
-        'comments': string;
-        'txnType': string;
-        'preferredDestination': string;
-        'requestId': string;
-        'subwalletAmount': object[];
-        'mid': string;
-        'orderId': string;
-        'refId': string;
-        'extraParamsMap': {};
+        txnId: string;
+        refundAmount: string;
+        comments: string;
+        txnType: string;
+        preferredDestination: string;
+        requestId: string;
+        subwalletAmount: object[];
+        mid: string;
+        orderId: string;
+        refId: string;
+        extraParamsMap: {};
     };
 }

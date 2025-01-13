@@ -41,11 +41,11 @@ export declare class SecureRequestHeader extends _RequestHeader.RequestHeader {
      */
     getSecureRequestHeader(clientId: string, workFlow: string, channelId: string): SecureRequestHeader;
     toJSON(): {
-        'version': string;
-        'channelId': string;
-        'requestTimestamp': string;
-        'workFlow': string;
-        'clientId': string;
-        'signature': string;
+        version: string;
+        channelId: string;
+        requestTimestamp: string;
+        workFlow: string;
+        clientId: string;
+        signature: string;
     };
 }

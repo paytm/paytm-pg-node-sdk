@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.SecureRequestHeader = void 0;
 const _LibraryConstants = require("../constants/LibraryConstants");
 const _RequestHeader = require("../request/RequestHeader");
 /* class: SecureRequestHeader */

@@ -73,12 +73,12 @@ export declare class InitiateTransactionResponseBody extends _BaseResponseBody.B
      */
     setCallbackUrl(callbackUrl: string): void;
     toJSON(): {
-        'txnToken': string;
-        'isPromoCodeValid': boolean;
-        'subscriptionId': string;
-        'isAuthenticated': boolean;
-        'callbackUrl': string;
-        'resultInfo': any;
-        'extraParamsMap': {};
+        txnToken: string;
+        isPromoCodeValid: boolean;
+        subscriptionId: string;
+        isAuthenticated: boolean;
+        callbackUrl: string;
+        resultInfo: any;
+        extraParamsMap: {};
     };
 }

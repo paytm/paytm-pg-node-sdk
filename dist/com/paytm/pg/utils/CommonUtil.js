@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.CommonUtil = void 0;
 const _LibraryContants = require("../constants/LibraryConstants");
 const _ErrorConstants = require("../constants/ErrorConstants");
 const _LoggingUtil = require("../utils/LoggingUtil");

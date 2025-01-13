@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Request = exports.LibraryConstants = void 0;
 /**
  * Copyright (C) 2019 Paytm.
  */
@@ -14,6 +15,7 @@ class LibraryConstants {
         throw new Error(_ErrorConstants.ErrorConstants.UTILITY_CLASS_EXCEPTION);
     }
 }
+exports.LibraryConstants = LibraryConstants;
 LibraryConstants.VERSION = "v2";
 /** Environment constants */
 LibraryConstants.STAGING_ENVIRONMENT = "STAGE";
@@ -29,7 +31,6 @@ LibraryConstants.X_REQUEST_ID = "X-Request-ID";
 LibraryConstants.NODE_SDK_TEXT = "NODE-SDK";
 /** holds the version of SDK */
 LibraryConstants.NODE_SDK_VERSION = "1.0.0";
-exports.LibraryConstants = LibraryConstants;
 /* class: Request */
 class Request {
     /**
@@ -40,6 +41,6 @@ class Request {
         throw new Error(_ErrorConstants.ErrorConstants.UTILITY_CLASS_EXCEPTION);
     }
 }
+exports.Request = Request;
 Request.FOOD_WALLET = "FOOD";
 Request.GIFT_WALLET = "GIFT";
-exports.Request = Request;

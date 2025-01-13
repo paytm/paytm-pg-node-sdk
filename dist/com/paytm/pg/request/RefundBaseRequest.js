@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.RefundBaseRequest = void 0;
 const _ExtraParameterMap = require("../request/ExtraParameterMap");
 /* class: RefundBaseRequest */
 class RefundBaseRequest extends _ExtraParameterMap.ExtraParameterMap {

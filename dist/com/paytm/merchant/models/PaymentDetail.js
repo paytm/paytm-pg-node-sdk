@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.PaymentDetailBuilder = exports.PaymentDetail = void 0;
 /**
  * This class is used to store all the paymentDetail information
  * Paytm\pg\process\Request of initiateTransaction api is translated by paymentDetail object

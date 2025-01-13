@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ChildTransaction = void 0;
 /* class: ChildTransaction  */
 class ChildTransaction {
     /**

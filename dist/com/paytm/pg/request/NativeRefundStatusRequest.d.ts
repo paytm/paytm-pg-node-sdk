@@ -38,7 +38,7 @@ export declare class NativeRefundStatusRequest {
      * @return array|mixed
      */
     toJSON(): {
-        'head': any;
-        'body': any;
+        head: any;
+        body: any;
     };
 }

@@ -37,7 +37,7 @@ export declare class InitiateTransactionResponse implements _SecureResponse.Secu
     setBody(body: any): void;
     fromJSON(json: any): any;
     toJSON(): {
-        'head': any;
-        'body': any;
+        head: any;
+        body: any;
     };
 }

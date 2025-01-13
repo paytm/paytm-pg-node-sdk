@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.InitiateTransactionResponseBody = void 0;
 const _BaseResponseBody = require("./BaseResponseBody");
 /* class: InitiateTransactionResponseBody */
 class InitiateTransactionResponseBody extends _BaseResponseBody.BaseResponseBody {

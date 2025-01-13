@@ -34,9 +34,9 @@ export declare class SecureResponseHeader extends _ResponseHeader.ResponseHeader
      */
     setSignature(signature: string): void;
     toJSON(): {
-        'clientId': string;
-        'signature': string;
-        'responseTimestamp': string;
-        'version': string;
+        clientId: string;
+        signature: string;
+        responseTimestamp: string;
+        version: string;
     };
 }

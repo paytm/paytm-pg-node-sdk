@@ -3,6 +3,7 @@
   * Copyright (C) 2019 Paytm.
   */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.LoggingUtil = void 0;
 const _Config = require("../constants/Config");
 var Levels;
 (function (Levels) {
@@ -41,7 +42,7 @@ class LoggingUtil {
                 return pattern;
             });
             LoggingUtil.logger = winston.createLogger({
-                level: Levels[_Config.Config.logLevel],
+                level: Levels[_Config.Config.logLevel], // minimum serverity to write log
                 levels: LoggingUtil.LogLevel,
                 format: combine(timestamp(), logFormat),
                 transports: [
@@ -66,6 +67,7 @@ class LoggingUtil {
         });
     }
 }
+exports.LoggingUtil = LoggingUtil;
 /**
  * @var Logger
  */
@@ -74,4 +76,3 @@ LoggingUtil.logger = null;
  * @var LogLevel
  */
 LoggingUtil.LogLevel = Levels;
-exports.LoggingUtil = LoggingUtil;

@@ -35,7 +35,7 @@ export declare class InitiateTransactionRequest {
      */
     constructor(head: any, body: any);
     toJSON(): {
-        'head': any;
-        'body': any;
+        head: any;
+        body: any;
     };
 }

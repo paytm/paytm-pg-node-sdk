@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Money = void 0;
 const _EnumCurrency = require("../enums/EnumCurrency");
 /* class: Money  */
 class Money {

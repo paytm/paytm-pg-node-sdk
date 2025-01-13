@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.NativePaymentStatusResponse = void 0;
 /* class: NativePaymentStatusResponse */
 class NativePaymentStatusResponse {
     /**

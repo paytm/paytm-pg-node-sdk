@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.MerchantProperties = void 0;
 /**
  * This class is used to store all the merchant related constants
  *  that are common to all payments and orders
@@ -156,13 +157,14 @@ class MerchantProperties {
         MerchantProperties.environment = environment;
         _LoggingUtil.LoggingUtil.addLog(_LoggingUtil.LoggingUtil.LogLevel.INFO, "MerchantProperties", "Setting Environment for " + environment);
         if (environment === _LibraryConstants.LibraryConstants.PRODUCTION_ENVIRONMENT) {
-            MerchantProperties.initiateTxnUrl = "https://securegw.paytm.in/theia/api/v1/initiateTransaction";
-            MerchantProperties.refundUrl = "https://securegw.paytm.in/refund/api/v1/async/refund";
-            MerchantProperties.paymentStatusUrl = "https://securegw.paytm.in/merchant-status/api/v1/getPaymentStatus";
+            MerchantProperties.initiateTxnUrl = "https://secure.paytmpayments.com/theia/api/v1/initiateTransaction";
+            MerchantProperties.refundUrl = "https://secure.paytmpayments.com/refund/api/v1/async/refund";
+            MerchantProperties.paymentStatusUrl = "https://secure.paytmpayments.com/merchant-status/api/v1/getPaymentStatus";
             MerchantProperties.refundStatusUrl = "https://pgp-ite.paytm.in/refund/api/v1/refundStatus";
         }
     }
 }
+exports.MerchantProperties = MerchantProperties;
 /**
  * @var bool
  */
@@ -195,17 +197,16 @@ MerchantProperties.callbackUrl = "https://pg-staging.paytm.in/MerchantSite/bankR
 /**
  * @var string
  */
-MerchantProperties.initiateTxnUrl = "https://securegw-stage.paytm.in/theia/api/v1/initiateTransaction";
+MerchantProperties.initiateTxnUrl = "https://securestage.paytmpayments.com/theia/api/v1/initiateTransaction";
 /**
  * @var string
  */
-MerchantProperties.refundUrl = "https://securegw-stage.paytm.in/refund/api/v1/async/refund";
+MerchantProperties.refundUrl = "https://securestage.paytmpayments.com/refund/api/v1/async/refund";
 /**
  * @var string
  */
-MerchantProperties.paymentStatusUrl = "https://securegw-stage.paytm.in/merchant-status/api/v1/getPaymentStatus";
+MerchantProperties.paymentStatusUrl = "https://securestage.paytmpayments.com/merchant-status/api/v1/getPaymentStatus";
 /**
  * @var string
  */
-MerchantProperties.refundStatusUrl = "https://securegw-stage.paytm.in/refund/api/v1/refundStatus";
-exports.MerchantProperties = MerchantProperties;
+MerchantProperties.refundStatusUrl = "https://securestage.paytmpayments.com/refund/api/v1/refundStatus";

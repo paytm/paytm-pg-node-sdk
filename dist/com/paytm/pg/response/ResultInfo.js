@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ResultInfo = void 0;
 /* class: ResultInfo */
 class ResultInfo {
     /**

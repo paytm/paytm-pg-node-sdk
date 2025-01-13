@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.InitiateTransactionResponse = void 0;
 /* class: InitiateTransactionResponse */
 class InitiateTransactionResponse {
     /**

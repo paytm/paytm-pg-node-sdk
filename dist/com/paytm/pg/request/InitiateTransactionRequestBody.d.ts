@@ -224,22 +224,22 @@ export declare class InitiateTransactionRequestBody {
      */
     setCardTokenRequired(cardTokenRequired: string): void;
     toJSON(): {
-        'requestType': string;
-        'mid': string;
-        'orderId': string;
-        'websiteName': string;
-        'txnAmount': any;
-        'userInfo': any;
-        'paytmSsoToken': string;
-        'enablePaymentMode': object[];
-        'disablePaymentMode': object[];
-        'promoCode': string;
-        'callbackUrl': string;
-        'goods': object[];
-        'shippingInfo': object[];
-        'extendInfo': any;
-        'emiOption': string;
-        'cardTokenRequired': string;
-        'cartValidationRequired': string;
+        requestType: string;
+        mid: string;
+        orderId: string;
+        websiteName: string;
+        txnAmount: any;
+        userInfo: any;
+        paytmSsoToken: string;
+        enablePaymentMode: object[];
+        disablePaymentMode: object[];
+        promoCode: string;
+        callbackUrl: string;
+        goods: object[];
+        shippingInfo: object[];
+        extendInfo: any;
+        emiOption: string;
+        cardTokenRequired: string;
+        cartValidationRequired: string;
     };
 }

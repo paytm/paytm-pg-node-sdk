@@ -95,14 +95,14 @@ export declare class AsyncRefundResponseBody extends _BaseResponseBody.BaseRespo
      */
     setRefId(refId: string): void;
     toJSON(): {
-        'refundId': string;
-        'mid': string;
-        'txnId': string;
-        'orderId': string;
-        'txnAmount': string;
-        'refundAmount': string;
-        'refId': string;
-        'resultInfo': any;
-        'extraParamsMap': {};
+        refundId: string;
+        mid: string;
+        txnId: string;
+        orderId: string;
+        txnAmount: string;
+        refundAmount: string;
+        refId: string;
+        resultInfo: any;
+        extraParamsMap: {};
     };
 }

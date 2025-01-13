@@ -3,6 +3,7 @@
  * Copyright (C) 2019 Paytm.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.BaseResponseBody = void 0;
 const _ExtraParameterMap = require("../request/ExtraParameterMap");
 const _ResultInfo = require("../response/ResultInfo");
 /* class: BaseResponseBody */

@@ -34,9 +34,9 @@ export declare class RequestHeader extends _BaseHeader.BaseHeader {
      */
     constructor();
     toJSON(): {
-        'version': string;
-        'channelId': string;
-        'requestTimestamp': string;
-        'workFlow': string;
+        version: string;
+        channelId: string;
+        requestTimestamp: string;
+        workFlow: string;
     };
 }

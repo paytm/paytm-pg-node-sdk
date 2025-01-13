@@ -1,8 +1,8 @@
 {
   "name": "paytm-pg-node-sdk",
   "description": "Paytm SDK for Node.js",
-  "version": "1.0.5",
-  "author": "Rahul Verma",
+  "version": "1.0.6",
+  "author": "Integration Dev",
   "main": "dist/index.js",
   "keywords": [
     "Paytm",
